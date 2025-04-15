@@ -1,18 +1,42 @@
 # SpyWorld-SecurityTools
 
-Una herramienta de ciberseguridad hecha con Python y Tkinter. Incluye:
-- 🌐 Analizador web con IP y título de página
-- 🔐 Generador de contraseñas seguras
-- 🔒 Encriptador y desencriptador de mensajes
+**SpyWorld-SecurityTools** es una herramienta de ciberseguridad desarrollada en Python utilizando la biblioteca Tkinter para la interfaz gráfica. Ofrece diversas funcionalidades para análisis y herramientas de seguridad.
 
-## 💻 Requisitos
+## Funcionalidades
 
-- Python 3.x
-- Librerías necesarias:
-  - `requests`
-  - `beautifulsoup4`
+### 🌐 **Analizador Web**
+- Permite analizar un sitio web, mostrando su IP, título y código de respuesta HTTP.
+  
+### 🔐 **Generador de Contraseñas Seguras**
+- Genera contraseñas aleatorias seguras con letras, números y caracteres especiales.
 
-## 🚀 Ejecutar
+### 🔒 **Encriptador y Desencriptador de Mensajes**
+- Permite encriptar y desencriptar mensajes utilizando una clave segura generada automáticamente.
+
+### 📍 **GeoIP**
+- Permite rastrear la ubicación geográfica de una dirección IP.
+
+### 📋 **WHOIS**
+- Proporciona información de registro WHOIS sobre un dominio.
+
+### 🔍 **Escáner de Puertos**
+- Realiza un escaneo de puertos para detectar los puertos abiertos de un servidor.
+
+### 📶 **Dispositivos en Red**
+- Detecta dispositivos conectados en la misma red local.
+
+---
+
+## Requisitos
+
+Para ejecutar la herramienta, necesitas tener instalada una versión de **Python 3.x** y las siguientes bibliotecas:
+
+- `requests`
+- `beautifulsoup4`
+- `cryptography`
+- `whois`
+
+Puedes instalar las dependencias necesarias ejecutando el siguiente comando:
 
 ```bash
-python main.py
+pip install requests beautifulsoup4 cryptography python-whois
