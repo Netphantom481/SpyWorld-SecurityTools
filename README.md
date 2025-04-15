@@ -1,2 +1,18 @@
 # SpyWorld-SecurityTools
-SpyWorld-SecurityTools📝 Descripción corta para el repositorio: Herramienta de análisis web, generación de contraseñas y encriptación de mensajes hecha en Python con interfaz gráfica. Ideal para aprender ciberseguridad básica.
+
+Una herramienta de ciberseguridad hecha con Python y Tkinter. Incluye:
+- 🌐 Analizador web con IP y título de página
+- 🔐 Generador de contraseñas seguras
+- 🔒 Encriptador y desencriptador de mensajes
+
+## 💻 Requisitos
+
+- Python 3.x
+- Librerías necesarias:
+  - `requests`
+  - `beautifulsoup4`
+
+## 🚀 Ejecutar
+
+```bash
+python main.py
