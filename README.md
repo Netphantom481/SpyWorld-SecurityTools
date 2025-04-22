@@ -22,9 +22,6 @@
 ### 🔍 **Escáner de Puertos**
 - Realiza un escaneo de puertos para detectar los puertos abiertos de un servidor.
 
-### 📶 **Dispositivos en Red**
-- Detecta dispositivos conectados en la misma red local.
-
 ---
 
 ## Requisitos
