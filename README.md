@@ -10,7 +10,7 @@
 ### 🔐 **Generador de Contraseñas Seguras**
 - Genera contraseñas aleatorias seguras con letras, números y caracteres especiales.
 
-### 🔒 **Encriptador y Desencriptador de Mensajes**
+### 🔒 **Encriptador y Desencriptador de Mensajes/Archivos**
 - Permite encriptar y desencriptar mensajes utilizando una clave segura generada automáticamente.
 
 ### 📍 **GeoIP**
